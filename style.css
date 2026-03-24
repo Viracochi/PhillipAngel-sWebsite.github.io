@@ -1,1 +1,21 @@
-
+body {
+  background-color: gray;
+  color: black;
+}
+.right-image {
+  float: right;
+  marigin-left: 15px;
+  marigin-bottom: 10px;
+}
+/*hi, this is the pseudo-element selector */
+h1::after {
+  content: " * ";
+}
+/* this makes the link color change when the mouse hovers over */
+a:hover {
+  color: purple;
+}
+/* background color change for table rows that are even */
+tr:nth-child(even) {
+  background-color: violet;
+}
