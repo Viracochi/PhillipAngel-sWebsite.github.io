@@ -4,6 +4,7 @@ body {
 }
 .right-image {
   float: right;
+  width: 240px;
   margin-top: 20px;
   margin-right: 40px;
   margin-left: 20px;
