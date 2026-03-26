@@ -12,7 +12,7 @@ body {
 }
 /*hi, this is the pseudo-element selector */
 h1::after {
-  content: " * ";
+  content: " ✞ ";
 }
 /* this makes the link color change when the mouse hovers over */
 a:hover {
