@@ -14,6 +14,9 @@ body {
 h1::after {
   content: " ✞ ";
 }
+h2::after {
+  content: " 𖤐 ";
+}
 /* this makes the link color change when the mouse hovers over */
 a:hover {
   color: purple;
